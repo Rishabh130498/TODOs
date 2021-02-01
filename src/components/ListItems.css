@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.list {
+  background-image: url("../assets/notes.png");
+  color: rgb(0, 0, 0);
+  height: 41px;
+  width: 312px;
+  margin: 19px 20px -10px 100px;
+  border-radius: 10px;
+}
+
+.list p {
+  padding: 10px 0px 0px 20px;
+  font-family: "Permanent Marker", cursive;
+  position: relative;
+  transition: ease-in-out;
+}
+
+.list p span {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  font-size: 14px;
+}
+.list p input:focus {
+  outline: none;
+}

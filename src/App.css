@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  background-image: url("./assets/yellow-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+}
+.App {
+  background-image: url("./assets/card.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+  min-height: 500px;
+  width: 486px;
+  height: 625px;
+  margin: 50px auto;
+  border-radius: 33px;
+  position: relative;
+}
+/* .App label {
+  color: rgb(0, 0, 0);
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  margin: 30px 110px;
+  position: absolute;
+} */
+#to-do-form input {
+  background-image: url("/src/assets/textField.png");
+  transition: 0.4 ease-out;
+  border: 0;
+  width: 193px;
+  height: 49px;
+  padding: 0 20px;
+  margin: 110px 20px 10px 100px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+#to-do-form input::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: "Permanent Marker", cursive;
+}
+
+#to-do-form input:focus,
+#to-do-form button {
+  outline: none;
+}
+
+#to-do-form button {
+  background-color: transparent;
+  margin-top: -10px;
+  height: 41px;
+  width: 119px;
+  font-family: "Permanent Marker", cursive;
+  border: 0;
+  background-image: url("./assets/button.png");
+  background-size: cover;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+}
